@@ -87,5 +87,5 @@ def get_custom_ops_lib():
 
 
 # YAML load/dump function aliases
-yaml_load = yaml.load
+yaml_load = lambda x: yaml.load(x, Loader=yaml.Loader)
 yaml_dump = yaml.dump
