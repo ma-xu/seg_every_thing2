@@ -72,7 +72,7 @@ def parse_args():
         '--output-dir',
         dest='output_dir',
         help='directory for visualization pdfs (default: /tmp/infer_simple)',
-        default='/tmp/infer_simple',
+        default='/home/g1007540910/seg_every_thing2/tmp/infer_simple',
         type=str
     )
     parser.add_argument(
