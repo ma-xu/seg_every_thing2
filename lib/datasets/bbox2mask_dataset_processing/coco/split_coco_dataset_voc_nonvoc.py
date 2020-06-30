@@ -58,9 +58,9 @@ def split_dataset(dataset_file, inds_split1, split1_file, split2_file):
 # class indices of VOC classes in COCO (0-indexed in range(0, 80) classes)
 voc_inds = (0, 1, 2, 3, 4, 5, 6, 8, 14, 15, 16, 17, 18, 19, 39, 56, 57, 58, 60, 62)
 
-dataset_prefix = './lib/datasets/data/coco/annotations/'
-split1_prefix = './lib/datasets/data/coco_bbox2mask/split_voc_'
-split2_prefix = './lib/datasets/data/coco_bbox2mask/split_nonvoc_'
+dataset_prefix = '/home/g1007540910/seg_every_thing2/lib/datasets/data/coco/annotations/'
+split1_prefix = '/home/g1007540910/seg_every_thing2/lib/datasets/data/coco_bbox2mask/split_voc_'
+split2_prefix = '/home/g1007540910/seg_every_thing2/lib/datasets/data/coco_bbox2mask/split_nonvoc_'
 suffix = (
     'instances_train2017.json',
     'instances_val2017.json')
