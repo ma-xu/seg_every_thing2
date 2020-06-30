@@ -62,9 +62,8 @@ dataset_prefix = './lib/datasets/data/coco/annotations/'
 split1_prefix = './lib/datasets/data/coco_bbox2mask/split_voc_'
 split2_prefix = './lib/datasets/data/coco_bbox2mask/split_nonvoc_'
 suffix = (
-    'instances_train2014.json',
-    'instances_valminusminival2014.json',
-    'instances_minival2014.json')
+    'instances_train2017.json',
+    'instances_val2017.json')
 
 for s in suffix:
     split_dataset(dataset_prefix + s, voc_inds, split1_prefix + s, split2_prefix + s)
